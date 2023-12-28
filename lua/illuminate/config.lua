@@ -1,5 +1,6 @@
 local M = {}
 
+---@class illuminate.config
 local config = {
     providers = {
         'lsp',
