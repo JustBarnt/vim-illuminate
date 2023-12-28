@@ -3,6 +3,8 @@ local M = {}
 local timers = {}
 local references = {}
 local paused_bufs = {}
+---@class Config
+local config = require("illuminate.config")
 
 -- returns r1 < r2 based on start of range
 local function before_by_start(r1, r2)
